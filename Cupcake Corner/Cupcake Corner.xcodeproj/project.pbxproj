@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2A2E9E1B296A76F600990BF4 /* publishedCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2E9E1A296A76F600990BF4 /* publishedCodable.swift */; };
+		2A2E9E1F296A9EF500990BF4 /* UrlRequisitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2E9E1E296A9EF500990BF4 /* UrlRequisitionView.swift */; };
 		2ADDF82D296A02FD00EFFFD4 /* Cupcake_CornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADDF82C296A02FD00EFFFD4 /* Cupcake_CornerApp.swift */; };
 		2ADDF82F296A02FD00EFFFD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADDF82E296A02FD00EFFFD4 /* ContentView.swift */; };
 		2ADDF831296A02FE00EFFFD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ADDF830296A02FE00EFFFD4 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		2A2E9E1A296A76F600990BF4 /* publishedCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = publishedCodable.swift; sourceTree = "<group>"; };
+		2A2E9E1E296A9EF500990BF4 /* UrlRequisitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlRequisitionView.swift; sourceTree = "<group>"; };
 		2ADDF829296A02FD00EFFFD4 /* Cupcake Corner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cupcake Corner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ADDF82C296A02FD00EFFFD4 /* Cupcake_CornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cupcake_CornerApp.swift; sourceTree = "<group>"; };
 		2ADDF82E296A02FD00EFFFD4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				2ADDF82C296A02FD00EFFFD4 /* Cupcake_CornerApp.swift */,
 				2ADDF82E296A02FD00EFFFD4 /* ContentView.swift */,
 				2A2E9E1A296A76F600990BF4 /* publishedCodable.swift */,
+				2A2E9E1E296A9EF500990BF4 /* UrlRequisitionView.swift */,
 				2ADDF830296A02FE00EFFFD4 /* Assets.xcassets */,
 				2ADDF832296A02FE00EFFFD4 /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				2ADDF82F296A02FD00EFFFD4 /* ContentView.swift in Sources */,
 				2A2E9E1B296A76F600990BF4 /* publishedCodable.swift in Sources */,
+				2A2E9E1F296A9EF500990BF4 /* UrlRequisitionView.swift in Sources */,
 				2ADDF82D296A02FD00EFFFD4 /* Cupcake_CornerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
