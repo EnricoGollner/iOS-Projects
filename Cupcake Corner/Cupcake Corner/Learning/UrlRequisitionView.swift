@@ -37,16 +37,17 @@ struct UrlRequisitionView: View {
     
     func loadData() async{
         guard let url = URL(string: "https://itunes.apple.com/search?term=pink+floyd&entity=song") else{
-            print("Invalid URL")
+            print("Invalid Url")
             return
         }
         
         do{
-            let (data, _) = try await URLSession.shared.data(from: url)  // Make the requisition to the API - underscore is the metadata
+            let (data, _) = try await URLSession.shared.data(from: url)
             
             if let decodedData = try? JSONDecoder().decode(Response.self, from: data){
                 results = decodedData.results
             }
+            
         } catch{
             print("Invalid data")
         }
